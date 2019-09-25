@@ -20,7 +20,7 @@ mvn clean install
 ```
 # Запуск
 ```
-mvn exec:java -Dexec.mainClass="Main" -Dexec.args="10"
+mvn exec:java -Dexec.mainClass="ru.sber.edu.Main" -Dexec.args="10"
 ```
 ##### Параметры:
 -Dexec.args="" - в кавычках указывается количество элементов Фибоначчи. В случае, если не установлен параметр, то выйдет сообщение: "Enter the number of Fibonacci elements", после которого, необходимо ввести количество элементов Фибоначчи.
